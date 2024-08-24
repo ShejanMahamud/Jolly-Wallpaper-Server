@@ -9,7 +9,7 @@ export const userSchema = new Schema({
     email: {
         type: String,
         required: "Enter email address",
-        unique: true
+        unique: true,
     },
     photo: {
         type: String,
@@ -19,6 +19,10 @@ export const userSchema = new Schema({
         required: true
     },
     created_at: {
+        type: Date,
+        default: Date.now()
+    },
+    updated_at: {
         type: Date,
         default: Date.now()
     }

@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 app.use(logReqRes("log.txt"));
 
-app.use("/user", UserRouter);
+app.use("/users", UserRouter);
 
 app.get("/", (req, res) => {
   res.send({
