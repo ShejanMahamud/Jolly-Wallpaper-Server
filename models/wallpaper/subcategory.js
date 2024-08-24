@@ -3,7 +3,7 @@ import mongoose, { model } from "mongoose";
 const Schema = mongoose.Schema
 
 export const wallpaperSubcategory = new Schema({
-    subcategory_title: {
+    subcategory_name: {
         type: String,
         required: "Enter subcategory name"
     },
@@ -14,6 +14,7 @@ export const wallpaperSubcategory = new Schema({
     },
     subcategory_image: {
         type: String,
+        default: ""
     },
     wallpaper_count: {
         type: Number,

@@ -90,3 +90,11 @@
 1724529664093: ::1 DELETE: /wallpaper_category/66ca3b9defeedd4dbea4532e/
 
 1724529685479: ::1 POST: /wallpaper_category/
+
+1724530203013: ::1 GET: /
+
+1724530330733: ::1 POST: /wallpaper_subcategory/
+
+1724530428611: ::1 POST: /wallpaper_subcategory/
+
+1724530502505: ::1 POST: /wallpaper_subcategory/
