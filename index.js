@@ -3,7 +3,8 @@ import dotenv from "dotenv";
 import express from "express";
 import { connectDB } from "./db/connectDB.js";
 import { logReqRes } from "./middlewares/index.js";
-import UserRouter from "./routes/user.js";
+import UserRouter from "./routes/user/user.js";
+import WallpaperCategoryRouter from "./routes/wallpaper/category.js";
 
 dotenv.config();
 
@@ -15,6 +16,7 @@ app.use(cors());
 app.use(logReqRes("log.txt"));
 
 app.use("/users", UserRouter);
+app.use("/wallpaper_category", WallpaperCategoryRouter);
 
 app.get("/", (req, res) => {
   res.send({

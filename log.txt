@@ -72,3 +72,21 @@
 1724520414373: ::1 DELETE: /users/mail.shejanmahamud@gmail.com
 
 1724520419672: ::1 DELETE: /users/mai2l.shejanmahamud@gmail.com
+
+1724521045233: ::1 POST: /users/
+
+1724526500644: ::1 GET: /
+
+1724528414619: ::1 GET: /
+
+1724528416029: ::1 GET: /
+
+1724529565379: ::1 POST: /wallpaper_category/
+
+1724529623487: ::1 PATCH: /wallpaper_category/66ca3b9defeedd4dbea4532e/
+
+1724529646887: ::1 GET: /wallpaper_category/66ca3b9defeedd4dbea4532e/
+
+1724529664093: ::1 DELETE: /wallpaper_category/66ca3b9defeedd4dbea4532e/
+
+1724529685479: ::1 POST: /wallpaper_category/
