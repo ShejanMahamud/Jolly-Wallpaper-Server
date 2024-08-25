@@ -98,3 +98,27 @@
 1724530428611: ::1 POST: /wallpaper_subcategory/
 
 1724530502505: ::1 POST: /wallpaper_subcategory/
+
+1724614433064: ::1 POST: /wallpapers/
+
+1724614483281: ::1 POST: /wallpapers/
+
+1724615133488: ::1 POST: /wallpapers/
+
+1724615210004: ::1 POST: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615224676: ::1 POST: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615248596: ::1 PATCH: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615259583: ::1 GET: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615675396: ::1 GET: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615679646: ::1 GET: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615685773: ::1 GET: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615797433: ::1 GET: /wallpapers/66cb89dd40bb6a3586da0915
+
+1724615809717: ::1 GET: /wallpapers/66cb89dd40bb6a3586da0915

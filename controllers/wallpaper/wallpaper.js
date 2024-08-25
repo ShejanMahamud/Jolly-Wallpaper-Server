@@ -50,12 +50,17 @@ export const getWallpapers = async (req,res) => {
 export const getWallpaperById = async (req,res) => {
     try{
         const id = req.params.id
-        const result = await Wallpaper.find({_id: new ObjectId(id)})
+        const result = await Wallpaper.findByIdAndUpdate({_id: new ObjectId(id)},{
+            $inc: {views: 1}
+        }, {
+            new: true
+        })
 
         if(!result) return res.status(404).send({
             success: false,
             message: "Wallpaper not found!"
         })
+
         res.status(200).send({
             success: true,
             data: result
