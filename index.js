@@ -6,6 +6,7 @@ import { logReqRes } from "./middlewares/index.js";
 import UserRouter from "./routes/user/user.js";
 import WallpaperCategoryRouter from "./routes/wallpaper/category.js";
 import wallpaperSubcategoryRouter from "./routes/wallpaper/subcategory.js";
+import wallpaperRouter from "./routes/wallpaper/wallpaper.js";
 
 dotenv.config();
 
@@ -19,6 +20,7 @@ app.use(logReqRes("log.txt"));
 app.use("/users", UserRouter);
 app.use("/wallpaper_category", WallpaperCategoryRouter);
 app.use("/wallpaper_subcategory", wallpaperSubcategoryRouter);
+app.use("/wallpapers", wallpaperRouter);
 
 app.get("/", (req, res) => {
   res.send({
