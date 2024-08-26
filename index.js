@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 app.use(logReqRes("log.txt"));
 
-app.use("/users", UserRouter);
+app.use("/auth/users", UserRouter);
 app.use("/wallpaper_category", WallpaperCategoryRouter);
 app.use("/wallpaper_subcategory", wallpaperSubcategoryRouter);
 app.use("/wallpapers", wallpaperRouter);
