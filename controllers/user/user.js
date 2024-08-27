@@ -51,7 +51,7 @@ export const loginUser = async (req, res) => {
 
     const token = jwt.sign({email}, process.env.ACCESS_TOKEN, { expiresIn: '1h' });
 
-    res.status(200).send({ token, success: true, message: "Successfully Logged In"});
+    res.status(200).send({ data: result,token, success: true, message: "Successfully Logged In"});
 
   } catch (error) {
     console.log("Getting login error:", error.message);
